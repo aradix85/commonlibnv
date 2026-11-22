@@ -32,7 +32,7 @@ namespace RE
 		std::uint32_t        m_shapeKeyA;        // 24
 		std::uint32_t        m_shapeKeysA[8];    // 28
 		const hkpCollidable* m_rootCollidableB;  // 48
-		std::uint32_t        m_shapeKeyB;        // 4C?
+		std::uint32_t        m_shapeKeyB;        // 4C
 		std::uint32_t        m_shapeKeysB[8];    // 50?
 	};
 }

@@ -24,8 +24,8 @@ namespace RE
 		bhkVector4   m_mousePositionInWorld;  // 18?
 		float        m_springDamping;         // 28?
 		float        m_springElasticity;      // 2C?
-		float        m_maxRelativeForce;      // 30?
-		float        m_objectDamping;         // 34?
+		float        m_maxRelativeForce;      // 30
+		float        m_objectDamping;         // 34
 		std::uint8_t pad38[0x18];             // 38
 	};
 	static_assert(sizeof(hkMouseSpringActionCinfo) == 0x50);

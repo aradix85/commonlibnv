@@ -29,7 +29,7 @@ namespace RE
 		// members
 		Actor*                         m_pSpeaker;                 // 00
 		FollowerBarks_FollowerBarkType m_eBarkType;                // 04
-		std::uint32_t                  m_tNoRepeatExpiration;      // 08?
-		std::uint32_t                  m_tNoOtherBarksExpiration;  // 0C?
+		std::uint32_t                  m_tNoRepeatExpiration;      // 08
+		std::uint32_t                  m_tNoOtherBarksExpiration;  // 0C
 	};
 }

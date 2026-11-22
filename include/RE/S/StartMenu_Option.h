@@ -22,8 +22,8 @@ namespace RE
 
 	public:
 		// members
-		const char*   pDisplayText;  // 04?
-		void*         pfChooseFn;    // 08?
-		std::uint32_t iModes;        // 0C?
+		const char*   pDisplayText;  // 04
+		void*         pfChooseFn;    // 08
+		std::uint32_t iModes;        // 0C
 	};
 }

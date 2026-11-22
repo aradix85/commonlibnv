@@ -23,7 +23,7 @@ namespace RE
 	public:
 		// members
 		NiFixedString                          xName;    // 00?
-		Tile_BuildStorage*                     pParent;  // 04?
+		Tile_BuildStorage*                     pParent;  // 04
 		NiTPointerList<Tile_TileTemplateItem*> xList;    // 08?
 	};
 }

@@ -58,6 +58,6 @@ namespace RE
 		// members
 		InterfaceManager_TutorialManager_MessageData tMessages[41];  // 00
 		Interface_TutorialMessageID                  eDisplayID;     // A4
-		std::uint32_t                                uiNextDisplay;  // A8?
+		std::uint32_t                                uiNextDisplay;  // A8
 	};
 }
