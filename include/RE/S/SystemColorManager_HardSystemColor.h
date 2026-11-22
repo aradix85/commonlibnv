@@ -26,6 +26,6 @@ namespace RE
 
 	public:
 		// members
-		std::uint32_t iRGB;  // 0C?
+		std::uint32_t iRGB;  // 0C
 	};
 }

@@ -22,7 +22,7 @@ namespace RE
 
 	public:
 		// members
-		const hkpShape* m_childShape;  // 04?
+		const hkpShape* m_childShape;  // 04
 		bhkTransform    m_transform;   // 08?
 		std::uint8_t    pad48[0x18];   // 48
 	};
